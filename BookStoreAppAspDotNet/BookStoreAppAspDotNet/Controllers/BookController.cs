@@ -20,9 +20,10 @@ namespace BookStoreAppAspDotNet.Controllers
 
 
 
-        public List<BookModel> GetAllBooks()
+        public ViewResult GetAllBooks()
         {
-            return _bookRespository.GetAllBooks();
+            var data =  _bookRespository.GetAllBooks();
+            return View();
         }
         public BookModel GetBook(int id )
         {

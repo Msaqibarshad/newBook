@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZroatX+BuF0PkAllfMg4O+sRT32mKwkPOUhkNf5ai2DYnSOtkqx59SsXir6UCo0S+0uRJ/v6Ub1LTk8vESw8iA==",
+  "dgSpecHash": "60WShaXeDjpgNHCwC/MBix0w8SnozRyjUN8QBxDcWs7lq6Ih+dYAmpOuo8toiedkEuzJIwJcPoAneQtHhrStzQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\saqib\\Desktop\\NewBookStoreApp\\BookStoreAppAspDotNet\\BookStoreAppAspDotNet\\BookStoreAppAspDotNet.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\saqib\\.nuget\\packages\\bootstrap\\5.2.2\\bootstrap.5.2.2.nupkg.sha512"
+  ],
   "logs": []
 }

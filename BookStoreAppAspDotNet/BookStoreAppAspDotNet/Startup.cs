@@ -26,36 +26,37 @@ namespace BookStoreAppAspDotNet
             {
                 app.UseDeveloperExceptionPage();
             }
-           // app.UseRouting();
-           // app.UseEndpoints(endpoints =>
-           // {
-           //     endpoints.MapGet("/new", async context =>
-           //     {
-           //         await context.Response.WriteAsync("Hello World form new middleware \n");
-           //     });
-           // });
+            // app.UseRouting();
+            // app.UseEndpoints(endpoints =>
+            // {
+            //     endpoints.MapGet("/new", async context =>
+            //     {
+            //         await context.Response.WriteAsync("Hello World form new middleware \n");
+            //     });
+            // });
 
-           // app.Use(async (context, next) =>
-           // {
-           //     await context.Response.WriteAsync("Hello im from first middle ware. \n");
-           //     await next();
-           //     await context.Response.WriteAsync("Hello im from first middle ware response \n");
+            // app.Use(async (context, next) =>
+            // {
+            //     await context.Response.WriteAsync("Hello im from first middle ware. \n");
+            //     await next();
+            //     await context.Response.WriteAsync("Hello im from first middle ware response \n");
 
-           // });
+            // });
 
-           // app.Use(async (context, next) =>
-           //{
-           //    await context.Response.WriteAsync("Helllo Im from Second Middleware. \n");
-           //    await next();
-           //    await context.Response.WriteAsync("Hello im from second middle ware response\n");
+            // app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("Helllo Im from Second Middleware. \n");
+            //    await next();
+            //    await context.Response.WriteAsync("Hello im from second middle ware response\n");
 
-           //});
-           // app.Use(async (context, next) =>
-           // {
-           //     await context.Response.WriteAsync("im from third middle ware \n");
-           //     await next();
-           //     await context.Response.WriteAsync("im from third middle ware response \n");
-           // });
+            //});
+            // app.Use(async (context, next) =>
+            // {
+            //     await context.Response.WriteAsync("im from third middle ware \n");
+            //     await next();
+            //     await context.Response.WriteAsync("im from third middle ware response \n");
+            // });
+            app.UseStaticFiles();
 
             app.UseRouting();
 

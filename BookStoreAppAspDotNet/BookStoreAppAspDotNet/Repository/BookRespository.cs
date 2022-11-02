@@ -30,7 +30,7 @@ namespace BookStoreAppAspDotNet.Repository
 
             return new List<BookModel>()
             {
-                new BookModel(){Id = 1, Title = "MVC" , Author = "Saqib"},
+                new BookModel() { Id = 1, Title = "MVC" , Author = "Saqib"},
                 new BookModel() { Id = 2, Title = "JAVA", Author = "USAMA" },
                 new BookModel() { Id = 3, Title = "PYHTON", Author = "ATTA" },
                 new BookModel() { Id = 4, Title = "CSHARP", Author = "SAMI" },

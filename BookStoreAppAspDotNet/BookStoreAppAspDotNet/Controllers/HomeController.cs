@@ -8,9 +8,13 @@ namespace BookStoreAppAspDotNet.Controllers
 {
     public class HomeController : Controller
     {
-        public string index()
+        public ViewResult index()
         {
-            return "Muhammad Saqib Arshad";
+            return View() ;
+        }
+        public ViewResult AboutUs()
+        {
+            return View();
         }
     }
 }

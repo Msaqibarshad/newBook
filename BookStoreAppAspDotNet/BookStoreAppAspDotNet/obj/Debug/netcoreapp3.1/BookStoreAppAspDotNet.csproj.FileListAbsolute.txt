@@ -19,3 +19,17 @@ C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotN
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.dll
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.pdb
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.genruntimeconfig.cache
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\bin\Debug\netcoreapp3.1\BookStoreAppAspDotNet.Views.dll
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\bin\Debug\netcoreapp3.1\BookStoreAppAspDotNet.Views.pdb
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.RazorAssemblyInfo.cache
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.RazorAssemblyInfo.cs
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.TagHelpers.input.cache
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.TagHelpers.output.cache
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.RazorCoreGenerate.cache
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.RazorTargetAssemblyInfo.cs
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.Views.pdb
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.csproj.CopyComplete
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Home\AboutUs.cshtml.g.cs
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Book\GetAllBooks.cshtml.g.cs
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\bin\Debug\netcoreapp3.1\libman.json
