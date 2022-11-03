@@ -8,7 +8,7 @@ namespace BookStoreAppAspDotNet.Controllers
 {
     public class HomeController : Controller
     {
-        public ViewResult index()
+        public ViewResult Index()
         {
             return View() ;
         }

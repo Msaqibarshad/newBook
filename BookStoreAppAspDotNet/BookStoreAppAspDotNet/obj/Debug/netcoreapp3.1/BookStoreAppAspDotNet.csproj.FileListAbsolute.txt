@@ -6,7 +6,6 @@ C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotN
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\bin\Debug\netcoreapp3.1\BookStoreAppAspDotNet.runtimeconfig.dev.json
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\bin\Debug\netcoreapp3.1\BookStoreAppAspDotNet.dll
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\bin\Debug\netcoreapp3.1\BookStoreAppAspDotNet.pdb
-C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.csproj.AssemblyReference.cache
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.AssemblyInfoInputs.cache
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.AssemblyInfo.cs
@@ -351,3 +350,8 @@ C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotN
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Home\ContactUs.cshtml.g.cs
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Book\GetBook.cshtml.g.cs
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\BookStoreAppAspDotNet.csproj.AssemblyReference.cache
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Book\Test.cshtml.g.cs
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs

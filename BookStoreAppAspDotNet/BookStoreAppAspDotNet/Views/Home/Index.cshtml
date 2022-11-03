@@ -2,41 +2,41 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
-    Layout = "_Layout";
+    ViewData["Title"] = "Home";
 }
 
-
-    <section class=" text-center">
-        <div class="container">
-
-            <h1 class="my-3">
-                Welcome To Our BookStore App
-            </h1>
-            <p class="lead text-muted">
-
-                In my Book Store App We have a huge amount of books lets explore them with us by using our this book store applicatin
-                In my Book Store App We have a huge amount of books lets explore them with us by using our this book store applicatin
-                In my Book Store App We have a huge amount of books lets explore them with us by using our this book store applicatin
-            </p>
-            <p>
-                <a href="#" class="btn btn-primary my-2">
-                    Search Books
-                </a>
-            </p>
-
-        </div>
-    </section>
-
-<div class="py-5 bg-light" >
-
+<section class=" text-center">
     <div class="container">
+
+        <h1 class="my-3 display-4 text-primary">
+            Welcome To Our BookStore App
+        </h1>
+        <p class="lead text-muted">
+
+            In my Book Store App We have a huge amount of books lets explore them with us by using our this book store applicatin
+            In my Book Store App We have a huge amount of books lets explore them with us by using our this book store applicatin
+            In my Book Store App We have a huge amount of books lets explore them with us by using our this book store applicatin
+        </p>
+        <p>
+            <a href="#" class="btn btn-primary my-2">
+                Search Books
+            </a>
+        </p>
+
+    </div>
+</section>
+
+<div class="py-5 bg-light">
+    <div class="container">
+        <h3>Top Books</h3>
+
 
         <div class="row">
             <div class="col-md-4">
 
 
                 <div class="card mb-4 shadow-sm">
-                    <img src="~/images/pic.png"  class="bd-placeholder-img card-img-top" width="100" height="225" />
+                    <img src="~/images/sh.jpg" class="bd-placeholder-img card-img-top" width="100" height="225" />
                     @*<svg class="bd-placeholder-img card-img-top" width="100%" height="225"></svg>*@
                     <div class="card-body">
                         <p class="card-text">This section is used to display the short description of book.</p>
@@ -57,7 +57,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <img src="~/images/pic.png" class="bd-placeholder-img card-img-top" width="100" height="225" />
+                    <img src="~/images/sh.jpg" class="bd-placeholder-img card-img-top" width="100" height="225" />
 
                     @*<svg class="bd-placeholder-img card-img-top" width="100%" height="225"></svg>*@
                     <div class="card-body">
@@ -79,7 +79,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <img src="~/images/pic.png" class="bd-placeholder-img card-img-top" width="100" height="225" />
+                    <img src="~/images/sh.jpg" class="bd-placeholder-img card-img-top" width="100" height="225" />
 
                     @* <svg class="bd-placeholder-img card-img-top" width="100%" height="225"></svg>*@
                     <div class="card-body">
@@ -102,7 +102,20 @@
         </div>
     </div>
 
+    @*@section scripts{
+            <script>
+
+
+
+                $(document).ready(function () {
+                    alert("the document is ready");
+                })
+
+            </script>
+        }*@
+
+
 </div>
-    
-   
+
+
 
