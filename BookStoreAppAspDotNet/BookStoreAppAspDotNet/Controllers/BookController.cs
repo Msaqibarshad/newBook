@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace BookStoreAppAspDotNet.Controllers
 {
-    public class BookController : Controller    
+    public class BookController : Controller     
     {
 
         private readonly BookRespository _bookRespository = null;
 
-        public BookController()
+        public BookController(BookRespository bookRespository)
         {
-            _bookRespository = new BookRespository();
+            _bookRespository = bookRespository;
         }
 
 
@@ -35,14 +35,21 @@ namespace BookStoreAppAspDotNet.Controllers
             return _bookRespository.SearchBook(BookName, AuthorName);
         }
 
-        public ViewResult AddNewBook()
+        public ViewResult AddNewBook(bool isSuccess = false , int bookId = 0 )
         {
+            ViewBag.isSuccess = isSuccess;
+            ViewBag.BookId = bookId;
             return View();
         }
 
         [HttpPost]
-        public ViewResult AddNewBook(BookModel bookModel)
+        public IActionResult AddNewBook(BookModel bookModel)
         {
+         int id =    _bookRespository.AddNewBook(bookModel);
+            if (id > 0 )
+            {
+                return RedirectToAction(nameof(AddNewBook), new { isSuccess = true ,bookId = id});
+            }
             return View();
         }
     }

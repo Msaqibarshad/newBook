@@ -1,4 +1,5 @@
-﻿using BookStoreAppAspDotNet.Models;
+﻿using BookStoreAppAspDotNet.Data;
+using BookStoreAppAspDotNet.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,33 @@ namespace BookStoreAppAspDotNet.Repository
 {
     public class BookRespository
     {
+        private readonly BookStoreContext _context = null;
+
+        public BookRespository(BookStoreContext context)
+        {
+            _context = context;
+        }
+
+        public int AddNewBook(BookModel model)
+        {
+            var newBook = new Books()
+            {
+
+                Author = model.Author,
+                Description = model.Description,
+                Title = model.Title,
+                Pages = model.Pages,
+                Language = model.Language
+
+
+            };
+
+            _context.Books.Add(newBook);
+            _context.SaveChanges();
+
+            return newBook.Id;
+
+        }
 
         public List<BookModel> GetAllBooks()
         {

@@ -17,7 +17,7 @@ namespace BookStoreAppAspDotNet.Data
 
         public DbSet<Books> Books { get; set; }
 
-
+          
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
         //    optionsBuilder.UseSqlServer("Data Source=dev15;User ID=sa;Password=lumensoft2003");

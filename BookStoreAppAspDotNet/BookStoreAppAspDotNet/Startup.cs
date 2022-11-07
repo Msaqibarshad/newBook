@@ -1,4 +1,5 @@
 using BookStoreAppAspDotNet.Data;
+using BookStoreAppAspDotNet.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -27,6 +28,8 @@ namespace BookStoreAppAspDotNet
 #if DEBUG
             services.AddRazorPages().AddRazorRuntimeCompilation();
 #endif
+
+            services.AddScoped < BookRespository, BookRespository > ();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -66,7 +69,7 @@ namespace BookStoreAppAspDotNet
             //     await next();
             //     await context.Response.WriteAsync("im from third middle ware response \n");
             // });
-            app.UseStaticFiles();
+            app.UseStaticFiles(); //middle ware to use static files.
 
             app.UseRouting();
 
