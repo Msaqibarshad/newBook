@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Migrations\NewFolder\" />
     <Folder Include="wwwroot\js\" />
   </ItemGroup>
 

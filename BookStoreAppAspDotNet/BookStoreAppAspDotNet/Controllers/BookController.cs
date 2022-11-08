@@ -20,14 +20,14 @@ namespace BookStoreAppAspDotNet.Controllers
 
 
 
-        public ViewResult GetAllBooks()
+        public async Task<ViewResult>   GetAllBooks()
         {
-            var data =  _bookRespository.GetAllBooks();
+            var data =await  _bookRespository.GetAllBooks();
             return View(data);
         }
-        public ViewResult GetBook(int id )
+        public async Task<ViewResult> GetBook(int id )
         {
-            var data =  _bookRespository.GetBookId(id);
+            var data = await _bookRespository.GetBookId(id);
             return View(data);
         }
         public List<BookModel> SearchBook(string BookName, string AuthorName)
@@ -43,13 +43,18 @@ namespace BookStoreAppAspDotNet.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddNewBook(BookModel bookModel)
+        public async Task<IActionResult>  AddNewBook(BookModel bookModel)
         {
-         int id =    _bookRespository.AddNewBook(bookModel);
-            if (id > 0 )
+
+            if (ModelState.IsValid)
             {
-                return RedirectToAction(nameof(AddNewBook), new { isSuccess = true ,bookId = id});
+                int id = await _bookRespository.AddNewBook(bookModel);
+                if (id > 0)
+                {
+                    return RedirectToAction(nameof(AddNewBook), new { isSuccess = true, bookId = id });
+                }
             }
+         
             return View();
         }
     }
