@@ -2,13 +2,16 @@
 @model BookModel
 @{ 
     ViewData["Title"] = "Add New Book";
+    Layout = "_layout";
 }
 
 <div class="container">
 
 
     <h3 class="display-4">Add A New Book</h3>
-    <form method="post">
+    
+    <form method="post" enctype="multipart/form-data" data-ajax="true"
+          data-ajax-loading="#myLoader">
 
         @if (ViewBag.isSuccess == true)
         {
@@ -22,8 +25,13 @@
 
         @*<div class="text-danger" asp-validation-summary="All"></div>*@
 
+
+
+
+
+
         <div class="new">
-            <label asp-for="Language" ></label>
+            <label asp-for="Language"></label>
             <select asp-for="Language" class="form-control">
                 <option value="">Choose Language Of Your Book:</option>
                 <option>English</option>
@@ -32,7 +40,7 @@
                 <option>Persian</option>
                 <option>Arabic</option>
             </select>
-            <span asp-validation-for="Language" class="text-danger" >
+            <span asp-validation-for="Language" class="text-danger">
 
             </span>
         </div>
@@ -63,7 +71,26 @@
             <textarea asp-for="Description" class="form-control"></textarea>
             <span class="text-danger" asp-validation-for="Description">
             </span>
+
         </div>
+
+        <div class="new ">
+            <label asp-for="CoverPhoto"></label>
+            <div class="mb-3">
+                <input class="form-control" asp-for="CoverPhoto" id="formFile">
+            </div>
+            <span class="text-danger" asp-validation-for="CoverPhoto">
+            </span>
+        </div>
+
+
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border" role="status" id="myLoader" style="display:none">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+
         <div class="new ">
             <button class="btn btn-primary" type="submit">Add New Book</button>
         </div>
@@ -76,3 +103,21 @@
 
 
 </div>
+
+@section scripts{ 
+
+<script>
+
+    //function myComplete() {
+    //    alert("i am from complete");
+    //}
+    //function mySuccess() {
+    //    alert("i am from success");
+    //}
+    //function myFailure() {
+    //    alert("i am from failure");
+    //}
+
+
+</script>
+}

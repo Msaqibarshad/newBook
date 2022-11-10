@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Migrations\NewFolder\" />
+    <Folder Include="wwwroot\Books\CoverImage\" />
     <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
