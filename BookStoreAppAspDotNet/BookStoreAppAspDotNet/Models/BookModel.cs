@@ -33,5 +33,8 @@ namespace BookStoreAppAspDotNet.Models
         [Required(ErrorMessage = "Please Choose the Cover photo of your book*")]
         public IFormFile CoverPhoto { get; set; }
 
+        public string CoverImageUrl { get; set; }
+
+
     }
 }

@@ -385,3 +385,6 @@ C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotN
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
 C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_footer.cshtml.g.cs
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_header.cshtml.g.cs
+C:\Users\saqib\Desktop\NewBookStoreApp\BookStoreAppAspDotNet\BookStoreAppAspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_bookthumbnail.cshtml.g.cs

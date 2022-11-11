@@ -19,7 +19,12 @@ namespace BookStoreAppAspDotNet.Data
 
         public int Pages { get; set; }
 
+        public string CoverImageUrl { get; set; }
+
         public DateTime? CreatedOn { get; set; }
         public DateTime? UpdatedOn { get; set; }
+
+
+
     }
 }

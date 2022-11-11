@@ -34,11 +34,7 @@ namespace BookStoreAppAspDotNet.Controllers
             var data = await _bookRespository.GetBookId(id);
             return View(data);
         }
-        public List<BookModel> SearchBook(string BookName, string AuthorName)
-        {
-            return _bookRespository.SearchBook(BookName, AuthorName);
-        }
-
+        
         public ViewResult AddNewBook(bool isSuccess = false , int bookId = 0 )
         {
             ViewBag.isSuccess = isSuccess;
@@ -56,6 +52,8 @@ namespace BookStoreAppAspDotNet.Controllers
                 {
                     string folder = "Books/CoverImage/";
                     folder += Guid.NewGuid().ToString() + "_" + bookModel.CoverPhoto.FileName ;
+                    bookModel.CoverImageUrl = "/"+folder;
+
                     string serverFolder = Path.Combine(_webHostEnvironment.WebRootPath, folder);
 
                  await bookModel.CoverPhoto.CopyToAsync(new FileStream(serverFolder, FileMode.Create));
